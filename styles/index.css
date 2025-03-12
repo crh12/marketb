@@ -352,7 +352,7 @@ main .room_ctnr .room_swiper .swiper-wrapper .slide1 .room_more_btn {left: 60.5%
 /* ==================================================================== OURB */
 main .ourb_ctnr {margin-bottom: 150px;}
 main .ourb_ctnr h1 {margin-bottom: 12px;}
-main .ourb_ctnr .subtitle_more {position: relative; text-align: center; margin-bottom: 30px;}
+main .ourb_ctnr .subtitle_more {max-width: 1260px; margin: 0 auto; position: relative; text-align: center; margin-bottom: 30px;}
 main .ourb_ctnr .subtitle_more p {font-size: 1.06rem; letter-spacing: -0.02em; color: #999;}
 main .ourb_ctnr .subtitle_more .view_more {top: -1px;}
 main .ourb_ctnr .our_contents {max-width: 1260px; width: 100%; display: flex; justify-content: space-between; margin: 0 auto;}
