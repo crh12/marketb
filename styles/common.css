@@ -1,0 +1,59 @@
+.hd_bg {width: 100%; background-color: #fff; margin-bottom: 20px;}
+.hd_bg header {width: 100%; padding: 0 80px;}
+/* ==================================================================== hd top */
+.hd_bg header .hd_top {height: 80px; padding: 10px 0; display: flex; justify-content: space-between; align-items: flex-end;}
+.hd_bg header .hd_top h1 {}
+.hd_bg header .hd_top h1 a {width: 187px; height: 38px; display: inline-block;}
+.hd_bg header .hd_top h1 a img {width: 100%;}
+.hd_bg header .hd_top .user_menu {display: flex; align-items: center;}
+.hd_bg header .hd_top .user_menu .search_wrap {width: 210px; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #000;}
+.hd_bg header .hd_top .user_menu .search_wrap #search {width: 100%; height: 12px; font-size: 0.75rem; letter-spacing: -0.02em;}
+.hd_bg header .hd_top .user_menu .search_wrap #search::placeholder {color: #999; font-size: 0.75rem; letter-spacing: -0.02em; text-align: center;}
+.hd_bg header .hd_top .user_menu .search_wrap a {width: 20px; height: 20px;}
+.hd_bg header .hd_top .user_menu .search_wrap a img {}
+.hd_bg header .hd_top .user_menu > a {width: 20px; height: 20px; margin-left: 12px;}
+.hd_bg header .hd_top .user_menu > a img {width: 100%;}
+/* ==================================================================== hd nav */
+.hd_bg header nav {width: 100%; height: 60px; display: flex; justify-content: space-between; align-items: center;}
+/* ==================================================================== gnb */
+.hd_bg header nav .gnb {display: flex;}
+.hd_bg header nav .gnb > li {margin-right: 20px;}
+.hd_bg header nav .gnb > li:last-child {margin: 0;}
+.hd_bg header nav .gnb > li > a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;} /* 대분류 */
+.hd_bg header nav .gnb > li > a span {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em; color: #EB3831;}
+/* ==================================================================== lnb */
+.hd_bg header nav .gnb > li .lnb {display: none;}
+.hd_bg header nav .gnb > li .lnb li {}
+.hd_bg header nav .gnb > li .lnb li a {} /* 소분류 */
+/* ==================================================================== 오른쪽 메뉴 */
+.hd_bg header nav .nav_right {display: flex;}
+.hd_bg header nav .nav_right li {margin-right: 20px;}
+.hd_bg header nav .nav_right li:last-child {margin: 0;}
+.hd_bg header nav .nav_right li a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;}
+/* ==================================================================== footer */
+footer {width: 100%; padding: 50px 80px; background-color: #eee;}
+footer .ft_top {max-width: 1270px; margin: 0 auto; display: flex; justify-content: space-between; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #ccc;}
+footer .ft_top .ft_logo {width: 187px; height: 38px;}
+footer .ft_top .ft_logo img {width: 100%;}
+footer .ft_top .ft_menu_container {display: flex;}
+footer .ft_top .ft_menu_container > * > a {/* a공통 */ margin-bottom: 15px; font-size: 0.75rem; font-weight: 500; letter-spacing: -0.02em;}
+footer .ft_top .ft_menu_container .ft_menu1 {display: flex; flex-flow: column nowrap;}
+footer .ft_top .ft_menu_container .ft_menu1 a {}
+footer .ft_top .ft_menu_container .ft_menu2 {margin: 0 150px; display: flex; flex-flow: column nowrap;}
+footer .ft_top .ft_menu_container .ft_menu2 a {}
+footer .ft_top .ft_menu_container .ft_menu2 a:last-child {margin: 0;}
+footer .ft_top .ft_menu_container .cs_center {display: flex; flex-flow: column nowrap;}
+footer .ft_top .ft_menu_container .cs_center > * {margin-bottom: 15px;}
+footer .ft_top .ft_menu_container .cs_center > *:last-child {margin: 0;}
+footer .ft_top .ft_menu_container .cs_center p {font-size: 0.75rem; letter-spacing: -0.02em;}
+footer .ft_top .ft_menu_container .cs_center p em {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;}
+footer .ft_top .ft_menu_container .cs_center p strong {font-size: 1.13rem; font-weight: 600; letter-spacing: -0.02em;}
+footer .ft_top .ft_menu_container .cs_center p span {font-weight: 500;}
+footer .ft_top .ft_menu_container .cs_center a {display: flex; font-weight: 400;}
+footer .ft_top .ft_menu_container .cs_center a img {width: 12px; height: 12px; margin-left: 6px;}
+footer .ft_btm {max-width: 1270px; margin: 0 auto;}
+footer .ft_btm p {margin-bottom: 10px; text-align: center; font-size: 0.75rem; font-weight: 500; letter-spacing: -0.02em;}
+footer .ft_btm .company_more {width: 78%; display: flex; flex-flow: row wrap; justify-content: center; margin: 0 auto;}
+footer .ft_btm .company_more span {color: #999; font-size: 0.75rem; letter-spacing: -0.02em; margin-right: 10px;}
+footer .ft_btm .company_more span:first-child {margin-bottom: 10px;}
+footer .ft_btm .company_more span a {color: #999;}
