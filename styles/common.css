@@ -8,7 +8,7 @@
 .hd_bg header .hd_top .user_menu {display: flex; align-items: center;}
 .hd_bg header .hd_top .user_menu .search_wrap {width: 210px; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #000;}
 .hd_bg header .hd_top .user_menu .search_wrap #search {width: 100%; height: 12px; font-size: 0.75rem; letter-spacing: -0.02em;}
-.hd_bg header .hd_top .user_menu .search_wrap #search::placeholder {color: #999; font-size: 0.75rem; letter-spacing: -0.02em; text-align: center;}
+.hd_bg header .hd_top .user_menu .search_wrap #search::placeholder {color: #999; font-size: 0.75rem; letter-spacing: -0.02em; text-align: center; transform: translateY(-1.5px);}
 .hd_bg header .hd_top .user_menu .search_wrap a {width: 20px; height: 20px;}
 .hd_bg header .hd_top .user_menu .search_wrap a img {}
 .hd_bg header .hd_top .user_menu > a {width: 20px; height: 20px; margin-left: 12px;}

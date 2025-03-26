@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKETB</title>
+    <!-- 웹글꼴 / 파비콘 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- 슬라이더 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/sub_detail.css">
+    <!-- JS -->
+    <script src="./scripts/common.js" defer></script>
+    <script src="./scripts/sub_detail.js" defer></script>
+</head>
+<body>
+    <!-- ==================================================================== 헤더 -->
+    <div class="hd_bg">
+        <header>
+            <div class="hd_top">
+                <h1 class="logo"><a href="./index.html"><img src="./images/logo.png" alt=""></a></h1>
+                <div class="user_menu">
+                    <div class="search_wrap">
+                        <input type="text" name="search" id="search" placeholder="상품명, 상품번호, 상품코드">
+                        <a href="#"><img src="./images/search.png" alt="검색하기"></a>
+                    </div>
+                    <a href="#"><img src="./images/login.png" alt="로그인"></a>
+                    <a href="#"><img src="./images/like_20.png" alt="위시리스트"></a>
+                    <a href="#"><img src="./images/cart_20.png" alt="장바구니"></a>
+                </div>
+            </div>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="#">ALL</a>
+                        <ul class="lnb">
+                            
+                        </ul>
+                    </li>
+                    <li><a href="#"><span>RANK100</span></a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">전체상품</a></li>
+                            <li><a href="#">침대</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">의자</a></li>
+                            <li><a href="#">소파</a></li>
+                            <li><a href="#">수납장</a></li>
+                            <li><a href="#">조명</a></li>
+                            <li><a href="#">패브릭</a></li>
+                            <li><a href="#">리빙</a></li>
+                            <li><a href="#">유아동</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">침대</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">온열침대</a></li>
+                            <li><a href="#">철제침대</a></li>
+                            <li><a href="#">원목침대</a></li>
+                            <li><a href="#">싱글침대</a></li>
+                            <li><a href="#">슈퍼싱글/더블침대</a></li>
+                            <li><a href="#">퀸/킹침대</a></li>
+                            <li><a href="#">데이베드/소파베드</a></li>
+                            <li><a href="#">유아동침대</a></li>
+                            <li><a href="#">싱글매트리스</a></li>
+                            <li><a href="#">슈퍼싱클/더블매트리스</a></li>
+                            <li><a href="#">퀸/킹매트리스</a></li>
+                            <li><a href="#">유아동매트리스</a></li>
+                            <li><a href="#">스프레드/매트리스커버</a></li>
+                            <li><a href="#">침대테이블</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">이층/벙커침대</a></li>
+                            <li><a href="#">매트리스패키지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">테이블</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">원목테이블</a></li>
+                            <li><a href="#">2인용테이블/식탁</a></li>
+                            <li><a href="#">6인용테이블/식탁</a></li>
+                            <li><a href="#">다용도/수납테이블</a></li>
+                            <li><a href="#">야외/바테이블</a></li>
+                            <li><a href="#">콘솔/사이드테이블</a></li>
+                            <li><a href="#">침실테이블/협탁</a></li>
+                            <li><a href="#">테이블상판/다리</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">철제테이블</a></li>
+                            <li><a href="#">1인용테이블/식탁</a></li>
+                            <li><a href="#">4인용테이블/식탁</a></li>
+                            <li><a href="#">책상/데스크</a></li>
+                            <li><a href="#">접이식테이블</a></li>
+                            <li><a href="#">커피/소파테이블</a></li>
+                            <li><a href="#">원형/좌식테이블</a></li>
+                            <li><a href="#">화장대</a></li>
+                            <li><a href="#">테이블의자세트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">의자</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">원목의자</a></li>
+                            <li><a href="#">야외용의자</a></li>
+                            <li><a href="#">식탁/카페의자</a></li>
+                            <li><a href="#">벤치/수납의자</a></li>
+                            <li><a href="#">높이조절/바의자</a></li>
+                            <li><a href="#">스태커블의자/방석</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">철제의자</a></li>
+                            <li><a href="#">접의식의자</a></li>
+                            <li><a href="#">안락/흔들의자</a></li>
+                            <li><a href="#">회전/책상의자</a></li>
+                            <li><a href="#">스툴/푸프</a></li>
+                            <li><a href="#">디자인/빈티지의자</a></li>
+                            <li><a href="#">테이블의자세트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">소파</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">가죽소파</a></li>
+                            <li><a href="#">1인용소파</a></li>
+                            <li><a href="#">3인용소파</a></li>
+                            <li><a href="#">코너/카우치소파</a></li>
+                            <li><a href="#">소파커버/쿠션</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">패브릭소파</a></li>
+                            <li><a href="#">원목소파</a></li>
+                            <li><a href="#">2인용소파</a></li>
+                            <li><a href="#">4인용소파</a></li>
+                            <li><a href="#">소파베드/스툴</a></li>
+                            <li><a href="#">소파테이블</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">수납장</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">원목수납장</a></li>
+                            <li><a href="#">옷장/수납장</a></li>
+                            <li><a href="#">캐비닛/락커</a></li>
+                            <li><a href="#">선반/트롤리</a></li>
+                            <li><a href="#">신발장/수납스툴</a></li>
+                            <li><a href="#">사무용수납장</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">철제수납장</a></li>
+                            <li><a href="#">모듈수납장</a></li>
+                            <li><a href="#">서랍장</a></li>
+                            <li><a href="#">책장/장식장</a></li>
+                            <li><a href="#">TV수납장</a></li>
+                            <li><a href="#">콘솔/사이드보드</a></li>
+                            <li><a href="#">주방수납장</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">조명</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">플로어조명</a></li>
+                            <li><a href="#">벽/집게조명</a></li>
+                            <li><a href="#">천장조명</a></li>
+                            <li><a href="#">원목조명</a></li>
+                            <li><a href="#">전구</a></li>
+                            <li><a href="#">램프베이스</a></li>
+                            <li><a href="#">테이블조명</a></li>
+                            <li><a href="#">작업조명</a></li>
+                            <li><a href="#">팬던트조명</a></li>
+                            <li><a href="#">충전식조명</a></li>
+                            <li><a href="#">디자인조명</a></li>
+                            <li><a href="#">램프쉐이드</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">패브릭</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">쿠션/쿠션솜</a></li>
+                            <li><a href="#">커튼/커튼용품</a></li>
+                            <li><a href="#">인형/캐노피/텐트</a></li>
+                            <li><a href="#">이불/이불솜</a></li>
+                            <li><a href="#">스프레드/매트커버</a></li>
+                            <li><a href="#">방석/가방</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">담요</a></li>
+                            <li><a href="#">러그/카페트/매트</a></li>
+                            <li><a href="#">바구니/수납함</a></li>
+                            <li><a href="#">실내화/부츠</a></li>
+                            <li><a href="#">베개/베개솜</a></li>
+                            <li><a href="#">행주/타올</a></li>
+                            <li><a href="#">방한용품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">리빙</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">후크/홀더</a></li>
+                            <li><a href="#">바구니/수납함</a></li>
+                            <li><a href="#">주방용품</a></li>
+                            <li><a href="#">트레이/식기/용기</a></li>
+                            <li><a href="#">담요/러그/카페트/매트</a></li>
+                            <li><a href="#">커튼/액자/거울/캔들</a></li>
+                            <li><a href="#">화분/애견용품</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">패션</a></li>
+                            <li><a href="#">옷걸이/행거</a></li>
+                            <li><a href="#">휴지통/청소용품</a></li>
+                            <li><a href="#">욕실용품</a></li>
+                            <li><a href="#">세탁용품</a></li>
+                            <li><a href="#">베란다/바닥재</a></li>
+                            <li><a href="#">쿠션/베개/이불/솜</a></li>
+                            <li><a href="#">시계CD/장식품</a></li>
+                            <li><a href="#">문구/사무용품</a></li>
+                            <li><a href="#">뷰티</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">유아동</a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">소품</a></li>
+                            <li><a href="#">조명</a></li>
+                            <li><a href="#">욕실용품</a></li>
+                            <li><a href="#">의류/잡화</a></li>
+                            <li><a href="#">이케아/기타</a></li>
+                            <li><a href="#">가구</a></li>
+                            <li><a href="#">침구</a></li>
+                            <li><a href="#">러그/매트</a></li>
+                            <li><a href="#">수납용품</a></li>
+                            <li><a href="#">인형/놀이용품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span>SALE</span></a>
+                        <ul class="lnb">
+                            <li><a href="#">클리어런스</a></li>
+                            <li><a href="#">N개특가</a></li>
+                            <li><a href="#">샘플샵</a></li>
+                            <li><a href="#">리퍼브상품</a></li>
+                            <li><a href="#">조립할인</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span>특별전</span></a>
+                        <ul class="lnb">
+                            <li><a href="#">추천상품</a></li>
+                            <li><a href="#">하입코어</a></li>
+                            <li><a href="#">도파민다이브</a></li>
+                            <li><a href="#">올드머니룩</a></li>
+                            <li><a href="#">레이어드홈</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav_right">
+                    <li><a href="#">모두, 각자의 B</a></li>
+                    <li><a href="#">조립설명서</a></li>
+                    <li><a href="#">고객지원</a></li>
+                    <li><a href="#">매장안내</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- ==================================================================== main -->
+    <main>
+        
+    </main>
+    <!-- ==================================================================== footer -->
+    <footer>
+        <div class="ft_top">
+            <p class="ft_logo"><img src="./images/logo.png" alt=""></p>
+            <div class="ft_menu_container">
+                <div class="ft_menu1">
+                    <a href="#">매장안내</a>
+                    <a href="#">대량/제휴문의</a>
+                    <a href="#">대리점/위탁 모집</a>
+                </div>
+                <div class="ft_menu2">
+                    <a href="#">회사소개</a>
+                    <a href="#">공지사항</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">품질보증기준</a>
+                    <a href="#">개인정보처리방침</a>
+                </div>
+                <div class="cs_center">
+                    <p><em>고객센터</em></p>
+                    <p><strong>031 943 8307</strong></p>
+                    <p>평일 <span>09:00 ~ 17:30 [토,일,공휴일 제외]</span></p>
+                    <p>점심시간 <span>12:30 ~ 13:30</span></p>
+                    <a href="#">입금계좌정보 <img src="./images/down_12.png" alt="정보보기"></a>
+                </div>
+            </div>
+        </div>
+        <div class="ft_btm">
+            <p>(주)마켓비</p>
+            <div class="company_more">
+                <span>경기도 파주시 책향기로836 아름터타워8층</span>
+                <span>팩스1 031-949-6654</span>
+                <span>팩스2 070-4855-3088</span>
+                <span>대표 이사 남지희</span>
+                <span>사업자등록번호 141-81-15759</span>
+                <span>통신판매업신고 2009-경기파주-1943호 <a href="#">[사업자정보확인]</a></span>
+                <span>개인정보보호책임자 이효정 marketb@nate.com</span>
+                <span>호스팅 제공자 카페24(주)</span>
+                <span>COPYRIGHT ⓒ MARKETB ALL RIGHTS RESERVED.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
