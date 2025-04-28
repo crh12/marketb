@@ -1,0 +1,125 @@
+main {max-width: 1600px; width: 100%; display: flex; justify-content: space-between; margin: 0 auto 150px;}
+/* ==================================================================== container 공통 */
+main .container {}
+/* ==================================================================== 좌측 영역 */
+main #menu_ctnr {max-width: 200px; width: 100%; height: max-content;}
+/* ================================== menu */
+main #menu_ctnr .title_menu {
+    display: flex; align-items: center; justify-content: space-between; padding: 20px 0; margin-bottom: 10px;
+    box-shadow: inset 0 -1.5px #000;
+}
+main #menu_ctnr .title_menu img {width: 15px; height: 15px;}
+/* ================================== category 메뉴 공통 */
+main #menu_ctnr .category li a {/* a 공통 */ display: block;}
+main #menu_ctnr .category > li > a.active,
+main #menu_ctnr .category > li .sub_category li a.active {text-decoration: underline; text-underline-offset: 2px;}
+/* ================================== category */
+main #menu_ctnr .category {}
+main #menu_ctnr .category > li {}
+main #menu_ctnr .category > li > a {padding: 20px 0;}
+main #menu_ctnr .category > li > a.active {}
+/* ================================== sub_category */
+main #menu_ctnr .category > li .sub_category {padding: 0 12px;}
+main #menu_ctnr .category > li .sub_category li {}
+main #menu_ctnr .category > li .sub_category li a {padding: 10px 0; color: #999;}
+main #menu_ctnr .category > li .sub_category li a.active {color: #284F37;}
+/* ==================================================================== 우측 영역 */
+main #filter_item_ctnr {max-width: 1290px; width: 100%;}
+/* ================================== 상품 수 + 필터 */
+main #filter_item_ctnr .num_filter {display: flex; justify-content: space-between; padding: 25px 0; margin-bottom: 20px;}
+/* ================================== 상품 수 */
+main #filter_item_ctnr .num_filter .itm_num {}
+main #filter_item_ctnr .num_filter .itm_num span {color: #284F37;}
+/* ================================== 상품 필터 */
+main #filter_item_ctnr .num_filter .filter {display: flex;}
+main #filter_item_ctnr .num_filter .filter a {display: block; color: #999; margin-right: 20px;}
+main #filter_item_ctnr .num_filter .filter a:last-child {margin: 0;}
+main #filter_item_ctnr .num_filter .filter a.active {color: #000;}
+/* ================================== 상품 리스트 */
+main #filter_item_ctnr .itm_wrap {
+    display: flex; flex-flow: row wrap; justify-content: space-between; align-content: space-between; margin-bottom: 90px;
+}
+main #filter_item_ctnr .itm_wrap > li {width: calc((100% - 90px) / 4); height: max-content; display: flex; flex-flow: column nowrap; margin-bottom: 30px;}
+main #filter_item_ctnr .itm_wrap > li > a {width: 100%; height: 100%; position: relative; margin-bottom: 12px;}
+main #filter_item_ctnr .itm_wrap > li > a .itm_img {width: 100%; margin: 0 auto;}
+main #filter_item_ctnr .itm_wrap > li > a .itm_img img {width: 100%;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap {display: flex; position: absolute; left: 20px; bottom: 20px; opacity: 0; transition: opacity 0.3s;}
+main #filter_item_ctnr .itm_wrap > li > a:hover .color_wrap {opacity: 1;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span {width: 15px; height: 15px; display: inline-block; margin-right: 4px;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:last-child {margin: 0;}
+main #filter_item_ctnr .itm_wrap > li .itm_info {display: flex; flex-flow: column;}
+main #filter_item_ctnr .itm_wrap > li .itm_info > * {margin-bottom: 12px;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap {display: flex; justify-content: space-between; align-items: center;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .tags {display: flex;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .tags li {
+    padding: 5px 6px; color: #284F37; border: 1px solid #284F37; border-radius: 6px; margin-right: 6px;
+}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .tags .delivery {background-color: #284F37; color: #fff;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .tags .best {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .tags .present {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .like {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .like img {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .itm_name {overflow: hidden; text-wrap: nowrap; text-overflow: ellipsis;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap {display: flex;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap > * {margin-right: 10px;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap em {color: #EB3831;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap strong {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap span {margin: 0; text-decoration: line-through; color: #999;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info {display: flex; margin: 0;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .selling_num {margin-right: 10px;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .selling_num img {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .review_num {}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .review_num img {transform: translateY(1px);}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .selling_num,
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .review_num {display: flex; align-items: center;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .selling_num img,
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .review_num img {width: 13px; height: 13px; margin-right: 6px;}
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .selling_num span,
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .review_num span {}
+/* ==================================================================== 컬러칩 개별 */
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(1) {background: linear-gradient(30deg, rgba(0, 0, 0, 0.1), #fff);}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(2) {background-color: #F5D96E;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(3) {background-color: #F1D9DC;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(4) {background-color: #1C1C1C;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(5) {background-color: #D9C9A0;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(6) {background-color: #3F4A59;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(7) {background-color: #58843B;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(8) {background-color: #EE693F;}
+main #filter_item_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(9) {background-color: #8B654F;}
+/* ==================================================================== 페이지 번호 */
+main #filter_item_ctnr .page_container {display: flex; justify-content: center; align-items: center; margin: 0 auto;}
+main #filter_item_ctnr .page_container a {}
+main #filter_item_ctnr .page_container .page_prev {margin-right: 6px;}
+main #filter_item_ctnr .page_container .page_prev img {transform: scaleX(-1) translateY(1px);}
+main #filter_item_ctnr .page_container .page_next {}
+main #filter_item_ctnr .page_container .page_next img {transform: translateY(1px);}
+main #filter_item_ctnr .page_container .page_prev,
+main #filter_item_ctnr .page_container .page_next {width: 16px; height: 16px;}
+main #filter_item_ctnr .page_container .page_prev img,
+main #filter_item_ctnr .page_container .page_next img {width: 100%;}
+main #filter_item_ctnr .page_container .page_num {padding: 7px 10px 7px; margin-right: 6px; border-radius: 6px;}
+main #filter_item_ctnr .page_container .active {background-color: #1a1a1a; color: #fff;}
+/* ==================================================================== 폰트 */
+/* ================================== 내용 제목 24 */
+main #menu_ctnr .title_menu {font-size: 1.50rem; font-weight: 500; letter-spacing: -0.02em;}
+/* ================================== 헤더 15 */
+main #menu_ctnr .category > li > a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;}
+main #menu_ctnr .category > li .sub_category li a {font-size: 0.88rem; font-weight: 500; letter-spacing: -0.02em;}
+/* ================================== 내용 15 강조 */
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap em,
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap strong
+{font-size: 0.94rem; font-weight: 600; letter-spacing: -0.02em;}
+/* ================================== 내용 15 */
+main #filter_item_ctnr .itm_wrap > li .itm_info .itm_name,
+main #filter_item_ctnr .itm_wrap > li .itm_info .price_wrap > *
+{font-size: 0.94rem; letter-spacing: -0.02em;}
+/* ================================== 보조 필터 sbold 14 */
+main #filter_item_ctnr .itm_num span {font-size: 0.88rem; font-weight: 500; letter-spacing: -0.02em;}
+/* ================================== 보조 필터 14 */
+main #filter_item_ctnr .itm_num,
+main #filter_item_ctnr .filter a {font-size: 0.88rem; letter-spacing: -0.02em;}
+/* ================================== 보조 12 */
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .selling_num span,
+main #filter_item_ctnr .itm_wrap > li .itm_info .more_info .review_num span {font-size: 0.75rem; letter-spacing: -0.02em;}
+/* ================================== 보조 9 강조 */
+main #filter_item_ctnr .itm_wrap > li .itm_info .tag_like_wrap .tags li {font-size: 0.56rem; font-weight: 600; letter-spacing: -0.02em; line-height: 9px;}

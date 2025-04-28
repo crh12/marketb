@@ -1,3 +1,4 @@
+// ------------------------------------------------------------ 변수
 const mainSlideCurrent = document.querySelector('#main_bnr .swiper_current');
 const mainSlideTotal = document.querySelector('#main_bnr .swiper_total');
 const rank100 = document.querySelectorAll('.rank100 a');
@@ -8,14 +9,15 @@ const roomSlides = document.querySelectorAll('.room_swiper .swiper-wrapper .swip
 
 let currentIndex = 0;
 
-
+// ------------------------------------------------------------ 함수 선언
 function activeReset(name){
     for(let i of name) i.classList.remove('active');
 };
 
-
+// ------------------------------------------------------------ 초기세팅
 mainSlideTotal.textContent = `0${document.querySelectorAll('#main_bnr .swiper-slide').length}`;
 
+// ------------------------------------------------------------ 메인
 const mainSwiper = new Swiper('.main_swiper',{
     autoplay:{delay:2500,},
     loop:true,

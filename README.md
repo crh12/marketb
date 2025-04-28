@@ -18,8 +18,12 @@ font-size: 1.06rem; letter-spacing: -0.02em;
 font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;
 ### 내용 15 강조
 font-size: 0.94rem; font-weight: 600; letter-spacing: -0.02em;
-### 내용 15 
+### 내용 15
 font-size: 0.94rem; letter-spacing: -0.02em;
+### 보조 필터 sbold 14
+font-size: 0.88rem; font-weight: 500; letter-spacing: -0.02em;
+### 보조 필터 14
+font-size: 0.88rem; letter-spacing: -0.02em;
 ### 리뷰 내용 14 140%
 font-size: 0.88rem; letter-spacing: -0.02em; line-height: 1.4;
 ### 보조 12 강조

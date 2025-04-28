@@ -33,7 +33,7 @@ main .container {max-width: 1860px; width: 100%; margin: 0 auto 120px; padding: 
 main .container h1 {font-size: 2rem; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 30px; text-align: center;}
 main .container .like {display: inline-block; width: 15px; height: 15px;}
 main .container .like img {width: 100%;}
-main .container .itm_name {font-size: 0.94rem; letter-spacing: -0.02em; overflow: hidden; text-wrap: nowrap; text-overflow: ellipsis; }
+main .container .itm_name {font-size: 0.94rem; letter-spacing: -0.02em; overflow: hidden; text-wrap: nowrap; text-overflow: ellipsis;}
 main .container .price_wrap {display: flex;}
 main .container .price_wrap em {margin-right: 10px; color: #EB3831;}
 main .container .price_wrap strong {margin-right: 10px;}
@@ -180,6 +180,9 @@ main .container .itm_wrap > li .itm_info .tag_like_wrap .tags .best {}
 main .container .itm_wrap > li .itm_info .tag_like_wrap .tags .present {}
 main .container .itm_wrap > li .itm_info .more_info {display: flex; margin: 0;}
 main .container .itm_wrap > li .itm_info .more_info .selling_num {margin-right: 10px;}
+main .container .itm_wrap > li .itm_info .more_info .selling_num img {}
+main .container .itm_wrap > li .itm_info .more_info .review_num {}
+main .container .itm_wrap > li .itm_info .more_info .review_num img {transform: translateY(1px);}
 main .container .itm_wrap > li .itm_info .more_info .selling_num,
 main .container .itm_wrap > li .itm_info .more_info .review_num {display: flex; align-items: center;}
 main .container .itm_wrap > li .itm_info .more_info .selling_num img,
@@ -289,10 +292,10 @@ main #new_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(7) {background-co
 main #new_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(8) {background-color: #EE693F;}
 main #new_ctnr .itm_wrap > li > a .color_wrap span:nth-of-type(9) {background-color: #8B654F;}
 /* ==================================================================== EVENT2 */
-main #event2_ctnr {padding: 60px 80px;}
+main #event2_ctnr {display: block; padding: 60px 80px;}
 main #event2_ctnr img {width: 100%;}
 /* ==================================================================== ROOM */
-main #room_ctnr {overflow: hidden;}
+main #room_ctnr {overflow: hidden; max-width: 100%;}
 main #room_ctnr .title_more {}
 main #room_ctnr .title_more h1 {}
 main #room_ctnr .title_more .view_more {}

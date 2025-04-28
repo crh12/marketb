@@ -1,35 +1,35 @@
-.hd_bg {width: 100%; background-color: #fff; margin-bottom: 20px;}
-.hd_bg header {width: 100%; padding: 0 80px;}
+header {width: 100%; background-color: #fff; margin-bottom: 20px; padding: 0 80px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+header .hd_bg {width: 100%; max-width: 1700px;}
 /* ==================================================================== hd top */
-.hd_bg header .hd_top {height: 80px; padding: 10px 0; display: flex; justify-content: space-between; align-items: flex-end;}
-.hd_bg header .hd_top h1 {}
-.hd_bg header .hd_top h1 a {width: 187px; height: 38px; display: inline-block;}
-.hd_bg header .hd_top h1 a img {width: 100%;}
-.hd_bg header .hd_top .user_menu {display: flex; align-items: center;}
-.hd_bg header .hd_top .user_menu .search_wrap {width: 210px; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #000;}
-.hd_bg header .hd_top .user_menu .search_wrap #search {width: 100%; height: 12px; font-size: 0.75rem; letter-spacing: -0.02em;}
-.hd_bg header .hd_top .user_menu .search_wrap #search::placeholder {color: #999; font-size: 0.75rem; letter-spacing: -0.02em; text-align: center; transform: translateY(-1.5px);}
-.hd_bg header .hd_top .user_menu .search_wrap a {width: 20px; height: 20px;}
-.hd_bg header .hd_top .user_menu .search_wrap a img {}
-.hd_bg header .hd_top .user_menu > a {width: 20px; height: 20px; margin-left: 12px;}
-.hd_bg header .hd_top .user_menu > a img {width: 100%;}
+header .hd_bg .hd_top {height: 80px; padding: 10px 0; display: flex; justify-content: space-between; align-items: flex-end;}
+header .hd_bg .hd_top h1 {}
+header .hd_bg .hd_top h1 a {width: 187px; height: 38px; display: inline-block;}
+header .hd_bg .hd_top h1 a img {width: 100%;}
+header .hd_bg .hd_top .user_menu {display: flex; align-items: center;}
+header .hd_bg .hd_top .user_menu .search_wrap {width: 210px; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #000;}
+header .hd_bg .hd_top .user_menu .search_wrap #search {width: 100%; height: 12px; font-size: 0.75rem; letter-spacing: -0.02em;}
+header .hd_bg .hd_top .user_menu .search_wrap #search::placeholder {color: #999; font-size: 0.75rem; letter-spacing: -0.02em; text-align: center; transform: translateY(-1.5px);}
+header .hd_bg .hd_top .user_menu .search_wrap a {width: 20px; height: 20px;}
+header .hd_bg .hd_top .user_menu .search_wrap a img {}
+header .hd_bg .hd_top .user_menu > a {width: 20px; height: 20px; margin-left: 12px;}
+header .hd_bg .hd_top .user_menu > a img {width: 100%;}
 /* ==================================================================== hd nav */
-.hd_bg header nav {width: 100%; height: 60px; display: flex; justify-content: space-between; align-items: center;}
+header .hd_bg nav {width: 100%; height: 60px; display: flex; justify-content: space-between; align-items: center;}
 /* ==================================================================== gnb */
-.hd_bg header nav .gnb {display: flex;}
-.hd_bg header nav .gnb > li {margin-right: 20px;}
-.hd_bg header nav .gnb > li:last-child {margin: 0;}
-.hd_bg header nav .gnb > li > a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;} /* 대분류 */
-.hd_bg header nav .gnb > li > a span {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em; color: #EB3831;}
+header .hd_bg nav .gnb {display: flex;}
+header .hd_bg nav .gnb > li {margin-right: 20px;}
+header .hd_bg nav .gnb > li:last-child {margin: 0;}
+header .hd_bg nav .gnb > li > a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;} /* 대분류 */
+header .hd_bg nav .gnb > li > a span {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em; color: #EB3831;}
 /* ==================================================================== lnb */
-.hd_bg header nav .gnb > li .lnb {display: none;}
-.hd_bg header nav .gnb > li .lnb li {}
-.hd_bg header nav .gnb > li .lnb li a {} /* 소분류 */
+header .hd_bg nav .gnb > li .lnb {display: none;}
+header .hd_bg nav .gnb > li .lnb li {}
+header .hd_bg nav .gnb > li .lnb li a {} /* 소분류 */
 /* ==================================================================== 오른쪽 메뉴 */
-.hd_bg header nav .nav_right {display: flex;}
-.hd_bg header nav .nav_right li {margin-right: 20px;}
-.hd_bg header nav .nav_right li:last-child {margin: 0;}
-.hd_bg header nav .nav_right li a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;}
+header .hd_bg nav .nav_right {display: flex;}
+header .hd_bg nav .nav_right li {margin-right: 20px;}
+header .hd_bg nav .nav_right li:last-child {margin: 0;}
+header .hd_bg nav .nav_right li a {font-size: 0.94rem; font-weight: 500; letter-spacing: -0.02em;}
 /* ==================================================================== footer */
 footer {width: 100%; padding: 50px 80px; background-color: #eee;}
 footer .ft_top {max-width: 1270px; margin: 0 auto; display: flex; justify-content: space-between; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #ccc;}
